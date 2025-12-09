@@ -3,6 +3,7 @@ import { getUser } from "./auth/server";
 import AskAIButton from "@/components/AskAIButton";
 import NewNoteButton from "@/components/NewNoteButton";
 import NoteTextInput from "@/components/NoteTextInput";
+export const dynamic = "force-dynamic";
 type Props = {
   searchParams: Promise<{[key:string]: string | string[] |undefined}>
 }
